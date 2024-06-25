@@ -34,8 +34,6 @@ gem 'webrick', '~> 1.7'
 # Mail gem
 gem 'mail', '>= 2.8.0.rc1'
 
-gem 'sprockets', '~> 4.0'
-
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

@@ -1,8 +1,7 @@
 {
   "name": "bewd-todolist",
   "engines": {
-    "node": ">=14.0.0",
-    "yarn": ">=1.22.0"
+    "node": "^16.17"
   },
   "scripts": {
     "lint": "eslint",
