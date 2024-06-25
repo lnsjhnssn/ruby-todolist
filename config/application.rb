@@ -12,7 +12,7 @@ require 'action_cable/engine'
 require 'sprockets/railtie'
 # require "rails/test_unit/railtie"
 
-config.assets.initialize_on_precompile = false
+
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -25,5 +25,6 @@ module Railsapp
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     # Rails.application.config.active_record.sqlite3.represent_boolean_as_integer = true
+    config.assets.initialize_on_precompile = false
   end
 end
