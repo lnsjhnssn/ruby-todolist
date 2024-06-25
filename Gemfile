@@ -69,10 +69,12 @@ group :development do
 
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.4'
+  # gem 'pg'
+
 end
 
 group :production do
   # Use pg as the database for Active Record
-  gem 'pg', '~> 1.4.3'
+  gem 'pg', '~> 1.4.3'b
 end
 gem 'sassc-rails'
