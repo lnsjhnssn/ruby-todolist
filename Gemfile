@@ -43,7 +43,7 @@ gem 'mail', '>= 2.8.0.rc1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.13', require: false
 
-gem 'rails_admin', '~> 2.0'
+gem 'rails_admin', '~> 3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
